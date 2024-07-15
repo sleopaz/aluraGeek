@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="main.js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        Alura Geek
+    </header>
+
+    <main class="main">
+
+        <section class="agregar-producto">
+            <h3 class="titulo">Agregar productos</h3>
+
+            <form id="formulario">
+                <input type="text" placeholder="Nombre..." name="nombre">
+                <input type="text" placeholder="Precio..." name="precio">
+                <input type="text" placeholder="Imagen..." name="img">
+
+                <div class="button-container">
+                    <button class="primary" type="submit">Enviar</button>
+                    <button class="secondary" type="reset">Limpiar</button>
+                </div>
+            </form>
+
+        </section>
+
+        <section class="mis-productos">
+            <h3 class="titulo">Mis productos</h3>
+
+            <div class="product-container" id="contenedorProductos">              
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>AluraGeek &copy;</h2>
+        <p>DESARROLLADO POR ESTEBAN PAZ</p>
+        <span>ALURA LATAM - 2024</span>
+
+    </footer>
+</body>
+
+</html>
